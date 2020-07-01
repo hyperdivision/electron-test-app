@@ -7,7 +7,9 @@
     "start": "electron electron.js",
     "dist": "electron-builder --publish=never --linux --win --mac"
   },
-  "dependencies": {},
+  "dependencies": {
+    "freemap": "^1.0.1"
+  },
   "devDependencies": {
     "electron": "^9.0.5",
     "electron-builder": "^22.7.0"

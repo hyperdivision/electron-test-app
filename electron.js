@@ -1,5 +1,6 @@
 const electron = require('electron')
 const path = require('path')
+const freemap = require('freemap')
 
 const { BrowserWindow, app } = electron
 let win
