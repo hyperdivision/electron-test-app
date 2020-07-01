@@ -1,16 +1,6 @@
 # electron-test-app
 
-WIP - nothing to see here
-
-```
-npm install electron-test-app
-```
-
-## Usage
-
-``` js
-const electron-test-app = require('electron-test-app')
-```
+Simple electron app made to test different update strategies, bundling, etc
 
 ## License
 
