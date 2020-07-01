@@ -1,0 +1,25 @@
+{
+  "name": "electron-test-app",
+  "version": "0.0.0",
+  "description": "Electron test app",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron electron.js",
+    "dist": "electron-builder --publish=never --linux --win --mac"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^8.3.4",
+    "electron-builder": "^22.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperdivision/electron-test-app.git"
+  },
+  "author": "Hyperdivision ApS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyperdivision/electron-test-app/issues"
+  },
+  "homepage": "https://github.com/hyperdivision/electron-test-app"
+}
