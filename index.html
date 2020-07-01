@@ -7,5 +7,11 @@
   <div>
     I am version 2
   </div>
+  <script>
+    const sodium = require('sodium-native')
+    const out = Buffer.alloc(32)
+    sodium.crypto_generichash(out, Buffer.from('hello world'))
+    console.log(out.toString('hex'))
+  </script>
 </body>
 </html>
